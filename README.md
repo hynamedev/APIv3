@@ -1,4 +1,7 @@
 # APIv3
 
-Notes:
-* Modifies `mongo-jackson-codec` by including copies of modified files and merging via maven-shade-plugin. See [here](https://github.com/FrozenOrb/APIv3/blob/master/src/main/java/fr/javatic/mongo/jacksonCodec/package-info.java) for more info.
+## What does this do?
+From what I recall about `APIv3` it was the backend of the website and the `Hydrogen` plugin.
+
+## Removal
+If you are an authorized representative of `FrozenOrb, LLC` and object to the existence of this repository, please contact me at `hiyo@hyname.tech`. I will promptly review your request and take appropriate action.
