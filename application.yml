@@ -1,0 +1,40 @@
+mongoUri: mongodb://127.0.0.1:27017/VeltAPI
+redisUri: redis://127.0.0.1:6379
+
+network:
+  name: VeltPvP Network
+  appealUrl: veltpvp.com/appeal
+  rootPermission: minehq
+
+http:
+  port: 80
+  keystoreFile:
+  keystorePassword:
+
+disposableLoginToken:
+  tokenLifetimeSeconds: 300
+
+ipHashing:
+  salt: J$gMsq6#!sWTK^JvB!px
+
+userSession:
+  sessionExpirationTimeDays: 30
+
+totp:
+  windowSize: 10
+  recentlyUsedPeriodSeconds: 300
+  ipAuthorizationDays: 5
+
+maxMind:
+  userId: 66817
+  licenseKey: 8Aw9NsOUeOp7
+
+mandrill:
+  apiKey: Py2b3eY5lHVpfN2hEyHwrA
+  fromEmail: no-reply@veltpvp.com
+  fromName: VeltPvP Network
+
+zang:
+  accountSid: ACf18890845596403e330944d98886440c
+  authToken: dc70bbd1fbd8411ba133fa93813a461b
+  fromNumber: 339-337-5300
